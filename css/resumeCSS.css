@@ -1,0 +1,64 @@
+.navigationBar{
+    background: #50485b;
+    color: #00cfd6;
+    height: 150px;
+    padding-left: 18px;
+    border-radius: 3px;
+    border: 5px solid #00cfd6;
+}
+
+.navigationBar ul, .navigationBar li{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+}
+
+.navigationBar ul{
+    width: 100%;
+}
+.navigationBar li{
+    border: solid 2px;
+    margin: 3px;
+    float:right;
+    display: inline;
+    position: relative;
+    border-radius: 10px;
+}
+.navigationBar a{
+    float: right;
+    display: block;
+    line-height: 80px;
+    color: #00cfd6;
+    font-size: 35px;
+    text-transform: capitalize;
+    margin: 20px;
+    border: 35px;
+    padding: 10px;
+    
+}
+.navigationBar li a:hover{
+    opacity: 50%;
+    background-color: #00cfd6;
+    border-radius: 10px;
+   
+}
+
+.mainTitle{
+    color: #50485b;
+}
+.navigationBar h1{
+    line-height: 90px;
+    position: relative;
+    float: left;
+    font-size: 40px;
+    font-style:unset;
+    color: #00cfd6;
+    margin: 5px;
+    border: 15px;
+    padding: 10px;
+    border-style: dashed;
+    border-color: #00cfd6;
+    font-weight:900;
+    text-decoration: underline; 
+}
+
